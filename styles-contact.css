@@ -60,82 +60,86 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/haileychoi_webbackground-01.png)
       center center fixed no-repeat;
     background-size: cover;
+    font-family: "helvetica", sans-serif;
 	
 	
 }
 
 .center {
-    width: 800px;
+    width: 80%; /* added this to make div responsive */
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(193, 66, 66, 0.00); /*this uses opacity of 0% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	/* removed -- border: 4px dashed white; */
 }
 
-   
+
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+    margin-top: 40px;
 	text-align: center;
 }
 
-h1 {
-    font-family: optima, serif;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
-}
-
-h2 {
-    font-family: bello-pro, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
-}
 
 p {
-	font-family: garamond, serif;
-	font-size: 1.2em;
+	font-family: cursive;
+    font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    letter-spacing: 5px
+    color:black;
 }
 
-nav{
-    font-family:garamond;
-    font-size: 1.2em;
-    width: 400px;
+nav {
+    width: 80%;
     margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
-    text-align: center;
-    margin-top: 2em;
-    }
+    padding: 20px 0;
+        font-family: monospace
+}
 
-nav li{
-    display:inline;
-    }
+/* everything below is copied "horizontal" */
+* {margin: 0; padding: 0;}
 
-nav a{
-    display:inline-block;
-    padding: 10px;
-    }
-    
-a{
-    color:#444; 
-    text-decoration: none;
-    font-weight: bold;
-    }
-a:hover{
-    color:black;
-    background:pink;
-    }
-    
+nav {
+  margin: 50px;
+}
 
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+  text-align: center;
+  margin-right: 0px;
+  border-right: 0px solid #aaa;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+}
+
+li a:hover {
+  color: #666;
+}
+
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+nav ul li a:hover {
+    color: beige
+}
