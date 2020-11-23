@@ -104,7 +104,7 @@ nav {
 * {margin: 0; padding: 0;}
 
 nav {
-  margin: 50px;
+  margin: center 50px;
 }
 
 ul {
@@ -115,8 +115,8 @@ ul {
 li {
   height: 25px;
   text-align: center;
-  margin-right: 0px;
-  border-right: 0px solid #aaa;
+  margin-right: center 0px;
+  border-right: center 0px solid #aaa;
   padding: 0 20px;
 }
 
