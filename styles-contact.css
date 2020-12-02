@@ -130,7 +130,7 @@ li:last-child {
 li a {
   text-decoration: none;
   color: #ccc;
-  font: 23px/1 Helvetica, Verdana, italic;
+  font: 23px/1 Helvetica, Verdana, sans-serif;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
 }
