@@ -101,6 +101,7 @@ nav {
 }
 
 /* everything below is copied "horizontal" */
+
 * {margin: 0; padding: 0;}
 
 nav {
@@ -125,11 +126,11 @@ li:last-child {
   border-right: none;
 }
 
-/* font size change from 25px to 23px */
+/* font size change from 25px to 23px, italic */
 li a {
   text-decoration: none;
   color: #ccc;
-  font: 23px/1 Helvetica, Verdana, sans-serif;
+  font: 23px/1 Helvetica, Verdana, sans-serif italic;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
 }
