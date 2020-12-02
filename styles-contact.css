@@ -86,11 +86,11 @@ html, body {
 
 
 p {
-	font-family: cursive;
+	font-family: monospace;
     font-size: 1.2em;
     line-height: 1.6;
-    letter-spacing: 5px
-    color:black;
+    letter-spacing: 5px;
+	color: black
 }
 
 nav {
