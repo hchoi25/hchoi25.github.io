@@ -84,12 +84,12 @@ html, body {
 	text-align: center;
 }
 
-
+/* changed font-family, font-size, letter-spacing 12/2 */
 p {
 	font-family: monospace;
-    font-size: 1.2em;
+    font-size: 1.8em;
     line-height: 1.6;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 	color: black
 }
 
@@ -112,8 +112,9 @@ ul {
   list-style-type: none;
 }
 
+/* changed height from 25px to 35px */ 
 li {
-  height: 25px;
+  height: 35px;
   text-align: center;
   margin-right: center 0px;
   border-right: center 0px solid #aaa;
@@ -124,10 +125,11 @@ li:last-child {
   border-right: none;
 }
 
+/* font size change from 25px to 23px */
 li a {
   text-decoration: none;
   color: #ccc;
-  font: 25px/1 Helvetica, Verdana, sans-serif;
+  font: 23px/1 Helvetica, Verdana, sans-serif;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
 }
@@ -136,8 +138,9 @@ li a:hover {
   color: #666;
 }
 
+/* bold to bolder */
 li.active a {
-  font-weight: bold;
+  font-weight: bolder;
   color: #333;
 }
 nav ul li a:hover {
